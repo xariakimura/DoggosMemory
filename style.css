@@ -1,0 +1,40 @@
+body {
+    background-image: url("images/PurplePlaid.png");
+    background-color: #c180d1;
+}
+
+* {
+    text-align: center;
+    color: white;
+}
+
+#image {
+    width: 75vmin;
+}
+
+#instructions {
+    height: 8vmin;
+}
+
+#buttons {
+    display: grid;
+    grid-template-columns: 15vmin 15vmin 15vmin 15vmin; /*15vmin = 15% of the width/height, whichever is smaller. Always fits on screen no matter the aspect ratio.*/
+    grid-gap: 10px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.memoryButton {
+    background-color: black;
+    border: none;
+    width: 100%;
+    padding-top: 100%;
+    position: relative;
+}
+.memoryButton:hover {
+    background-color: rgb(46, 46, 46);
+}
+.memoryButton:active { /*clicked/tapped*/
+    top: 1px;
+    left: 2px;
+}
