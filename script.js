@@ -43,14 +43,14 @@ gameState.waiting = false; // are we making the player wait for the cards to tur
 var jacks = new Array(16); //Make a new empty array, and pre-populate it with 16 empty slots
 var colors = ["violet", "red", "#613613", "yellow",
                 "green", "turquoise", "indigo", "white"];
-var images = ["url(images/doggo4.png)", //violet
-              "url(images/doggo6.png)", //red
-              "url(images/doggo2.png)", //brown
-              "url(images/doggo1.png)", //yellow
-              "url(images/doggo8.png)", //green
-              "url(images/doggo3.png)", //turquoise
-              "url(images/doggo7.png)", //indigo
-              "url(images/doggo5.png)" ] //white
+var images = ["url(Images/doggo4.png)", //violet
+              "url(Images/doggo6.png)", //red
+              "url(Images/doggo2.png)", //brown
+              "url(Images/doggo1.png)", //yellow
+              "url(Images/doggo8.png)", //green
+              "url(Images/doggo3.png)", //turquoise
+              "url(Images/doggo7.png)", //indigo
+              "url(Images/doggo5.png)" ] //white
 var secretButtonColors = new Array(16);
 
 var secondsToWaitAfterFailedMatch = .4; // wait for .4 seconds
